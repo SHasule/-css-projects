@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.container{
+  height:100vh;
+  width:100vw;
+  background-color: #738f9c;
+  background-image: linear-gradient(135deg, #738f9c 0%, #236dda 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box{
+  background-color: #fff;
+  height:480px;
+  width: 300px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding: 0.6rem;
+  gap:1.3rem;
+}
+.box img{
+  width:100%;
+  border-radius: 20px;
+}

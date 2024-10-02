@@ -1,0 +1,261 @@
+*{
+  margin:0;
+ box-sizing: border-box;
+ padding: 0;
+ /* border:border-box; */
+ font-family: Arial, Helvetica, sans-serif;
+}
+body{
+  /* max-width: 100vw; */
+  /* height: 100vh; */
+}
+.container{
+  /* max-width:1100px; */
+}
+.border{
+  border: 1px solid white transparent;
+}
+.border:hover{
+  border: 1px solid white;
+}
+.navbar{
+  height:70px;
+  background-color:#0f1111;
+  display: flex;
+ align-items: center;
+ /* gap: 1rem; */
+ justify-content: space-evenly;
+  
+}
+
+.amazon-img{
+  width:100px;
+  height:50px;
+ 
+}
+/* box2 */
+.Deliver-to{
+  color:rgb(216, 206, 206);
+  font-size:0.8rem;
+}
+.address-sec{
+  color: white;
+  font-weight: bold;
+}
+
+
+/* setup search */
+.search-img{
+  width:2.3rem;
+  height:2rem;
+  /* background-color: white; */
+}
+
+/* box3 */
+.nav-search{
+  display: flex;
+  background-color:lightcoral;
+  border-radius:4px;
+  width:600px;
+  height:40px;
+  justify-content: space-evenly;
+}
+.input-search:hover{
+  border:2px solid rgb(229, 204, 12);
+}
+.nav-select{
+ width:50px;
+ text-align: center;
+  border: none;
+  background-color: #f3f3f3;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius:4px;
+}
+.input-search{
+  width:100%;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+
+}
+
+.search-icon{
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#febd68;
+  font-size: 1.2rem;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius:4px;
+}
+
+/* box4 */
+.english{
+  display: flex;
+  gap:0.2rem;
+  
+
+}
+.en-flage{
+  width:1.6rem;
+  height: 1.6rem;
+}
+.lang-selector{
+  background:transparent;
+  color: white;
+  border: none;
+  font-weight: bold;
+}
+.nav-span{
+   color: rgb(231, 223, 223);
+   font-size:0.7rem;
+}
+.nav-sec{
+  color: white;
+  font-weight:600;
+}
+
+/* 
+ cart section */
+ .cart-Section i{
+  font-size: 30px;
+ }
+ .cart{
+  font-size:0.85rem;
+  font-weight: 700;
+  color: white;
+ }
+
+ /* panel start */
+
+ .panel{
+  display: flex;
+  background-color:#222f3d;
+  height: 40px;
+  color: white;
+  align-items: center;
+  justify-content: space-evenly;
+ }
+ .panel-options {
+    text-decoration: none;
+    color: white;
+    width:70%; 
+ }
+ .panel-options a{
+  color: white;
+  text-decoration: none;
+  margin-left: 1rem;
+  font-size:0.834rem;
+ }
+
+ .panel-deals{
+  font-size:0.834rem;
+  font-weight: 700;
+ }
+
+ /* hero section */
+.hero-section{
+  background-image: url("amazon-imgs/hero_image.jpg");
+  height: 300px;
+  background-size:cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.hero-msg{
+  background-color:white;
+  color: rgb(55, 52, 52);
+  height:2.8rem;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  width: 80%;
+  margin-bottom: 20px;
+  font-size:0.9rem;
+  
+}
+.hero-msg p a{
+  color: rgb(107, 65, 221);
+}
+
+/* card scetion */
+
+
+.shop-section{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #e2e7e6;
+  flex-wrap: wrap;
+}
+.box{
+
+   height: 400px;
+   width:23%;
+   background-color: #fff;
+   padding: 20px 0px 15px;
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+}
+.box-img{
+  height:290px;
+  background-size:cover;
+  margin-top: 0.5rem;
+margin-bottom:0.7rem;
+ 
+
+}
+.box-content{
+  margin-left:1rem;
+  margin-right:1rem;
+}
+.box-content h2{
+  font-size:1.2rem;
+}
+.seemore{
+  color: rgb(88, 190, 88);
+}
+
+
+/* footer */
+
+.backtotop{
+  height:50px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #37455a;
+}
+
+.footpanel{
+  background-color:#222f3d;
+  color: white;
+ display: flex;
+ justify-content: space-evenly;
+ height:300px;
+ padding-top: 2rem;
+
+}
+.footpanel a, p{
+  /* display: block; */
+  display: flex;
+  flex-direction: column;
+ 
+}
+.footpanel a{
+  margin: 1rem;
+  font-size: 0.9rem;
+  color: rgb(207, 194, 194);
+}
+.footpanel p{
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: rgb(246, 240, 240);
+}
+
+.footpanel a:hover{
+    color: white;
+    font-size: 0.933rem;
+    cursor: pointer;
+}

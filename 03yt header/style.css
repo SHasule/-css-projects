@@ -1,0 +1,32 @@
+body{
+  margin:0;
+  padding: 0;
+  height: 100vh;
+}
+.header{
+  height:120px;
+  background-color:#065fd4;
+  color: white;
+  padding:4rem;
+  font-family: sans-serif;
+ 
+}
+h1{
+  margin: 0;
+   margin-bottom: 1rem;
+}
+span{
+  font-size:1.6rem;
+}
+.header img{
+  width:50px;
+  border-radius:50%;
+  border: 3px solid white;
+  vertical-align:middle;
+  /* display: flex; */
+  /* flex-direction: row-reverse; */
+}
+
+img+img{
+  margin-left:-15px;
+}

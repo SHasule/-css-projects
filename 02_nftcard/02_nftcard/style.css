@@ -1,0 +1,56 @@
+body {
+  color: white;
+  box-sizing: border-box;
+color: hsl(215, 51%, 70%);
+
+font-family: sans-serif;
+background-color:hsl(217, 54%, 11%);
+}
+.box1 {
+  position: fixed;
+  inset: 0;
+  margin: auto;
+  height: 550px;
+  width: 100%;
+  max-width: 330px;
+  border-radius: 15px;
+  padding: 24px;
+  background-color: hsl(216, 50%, 16%);
+}
+.nft{
+  border-radius:14px;
+}
+/* .container{
+  padding: 10px;
+} */
+ .face{
+   width:2.6rem;
+  border: 1px solid white;
+  border-radius:50%;
+ 
+ }
+ .name{
+  padding-left: 1rem;
+  margin-top: 12px;
+ }
+ .named{
+  display: flex;
+  margin-top: 1.3rem;
+ }
+ h3{
+  color: white;
+ }
+.date{
+  padding-left: 10rem;
+}
+p{
+  font-family:18px;
+}
+.eth{
+  color: aqua;
+}
+.line{
+ /* border:0.01px solid hsl(215, 51%, 70%); */
+ background-color: hsl(215, 51%, 70%); 
+ margin-top: 25px;
+}

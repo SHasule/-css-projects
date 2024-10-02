@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+.container{
+  width: 100vw;
+  height:100vh;
+  background-color: #65658d;
+background-image: linear-gradient(160deg, #65658d 0%, #3291a2 100%);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box{
+  width:75%;
+  height:75%;
+  /* gap: 25px; */
+  display: flex;
+  background-color:rgb(76, 5, 76);
+}
+.leftbox{
+   color: white;
+   width: 50%;
+   margin: auto;
+   display: flex;
+   flex-direction: column;
+   gap: 65px;
+   padding:25px;
+  
+}
+
+.righbox img{
+  width: 100%;
+  height: 100%;
+
+}
+.paratext{
+  width:45%;
+ 
+}
+.overview{
+  display: flex;
+  justify-content: space-evenly
+}
+
