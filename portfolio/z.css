@@ -11,6 +11,12 @@
   --bgOrange: #e84949;
 }
 
+#menu-icon{
+    font-size:23px;
+    cursor: pointer;
+   display: none;
+}
+
 #wrapper{
     height:100vh;
     overflow-y:auto;
@@ -709,4 +715,13 @@ footer{
 .icon-wrapper{
   display:flex;
   gap:1rem;
+}
+
+@media (max-width:768px) {
+  #skills{
+    flex-direction: column;
+  }
+  .skill-container-right{
+    gap: 1rem;
+  }
 }
