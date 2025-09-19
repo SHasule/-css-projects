@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper{
+  height: 100vh;
+  /* width: 100vw; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   gap: 3px;
+  background-color: rgb(147, 195, 195);
+}
+.container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  
+}
+.heading{
+  color: rgb(44, 60, 184);
+  font-size: 30px;
+  font-weight: bold;
+}
+.input{
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  
+}
+.add-text{
+  border: none;
+  border-radius: 3px;
+}
+.task{
+  display: flex;
+  flex: row;
+  gap: 11px;
+
+  justify-content: space-between;
+  
+}
+.wright-img{
+  height: 15px;
+  width: 15px;
+  background-color: rgb(39, 147, 39);
+}
+.remove-btn{
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+    padding: 2px 5px;
+    font: bold;
+}
+.task-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 9px;
+}
