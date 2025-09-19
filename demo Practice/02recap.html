@@ -25,7 +25,7 @@
       .div1{
         width: 300px;
         height: 300px;
-        background-color: blanchedalmond;
+        /* background-color: blanchedalmond; */
         font-size: 23px;
       
       }
@@ -36,6 +36,80 @@
         font-size: 1rem;
         padding: 122px;
           box-sizing: border-box;
+      }
+      .box1{
+        width: 100px;
+       height:100px;
+       color: brown;
+       color: cornflowerblue;
+       box-shadow: 10px 10px 10px green;
+       background-image: linear-gradient(red,green);
+       background-image: linear-gradient(to left, blue,black);
+       background-image: linear-gradient(to right, rgb(213, 30, 6),rgb(120, 235, 6));
+       background-image: linear-gradient(90deg, rgb(159, 110, 104),rgb(27, 37, 17));
+      }
+      .text-shadow{
+        text-shadow: 2px 2px 3px red;
+        width:600px;
+        /* min-width: 800px; */
+        overflow: scroll;
+        border: 1px solid black;
+      }
+      .box2{
+        border:1px solid black;
+        width: 223px;
+   height: 100px;
+   overflow:hidden;
+      }
+
+      .box4{
+        height: 400px;
+        width: 600px;
+        border: 1px solid navy;
+        background-color: rgb(137, 189, 191);
+        position:relative;
+      }
+      .div4{
+       width: 100px;
+       height: 100px;
+      /* margin: 10px; */
+       border: 1px solid green;
+      
+       
+      }
+      .one{
+         position: relative;
+       left: 300px;
+       bottom: 300px;
+        background-color: aquamarine;
+      }
+      .two{
+        background-color: blueviolet;
+        position: absolute;
+        left: 100px;
+        bottom: 400px;
+      }
+      .three{
+             background-color: coral;
+             position: fixed;
+            top: 0;
+            right: 0;
+      }
+      .four{
+          background-color:cornflowerblue;
+          position: sticky;
+          top: 0;
+          /* left: 0; */
+      }
+
+      .box7{
+      background-color: aqua;
+      /* transform: translateX(9px);
+      transform: translateY(10px); */
+      /* transform: rotate(-5deg); */
+      margin: 210px;
+      /* transform: scale(1,2); */
+      transform: skewx(19deg);
       }
   </style>
 </head>
@@ -51,6 +125,32 @@
       this is div1
         <div class="div2">this is div2</div>
     </div>
+
+    <div class="box1">
+    </div>
+
+    <div class="text-shadow">text sarchitecto numquam eligendi amet in possimus blanditiis odit est quaerat officia praesentium mollitia, fugiat quo. Placeat dignissimos blanditiis animi minus nisi eius odit autem quidem, mollitia, nesciunt, quisquam dolor optio. Vitae sit odit perspiciatis, praesentium velit facilis voluptates iste dolor, nam minima tempore. Aperiam, quaerat et! Sapiente eius blanditiis at nesciunt cupiditate unde commodi nemo nulla, ab fugiat! Non tempora repellendus eveniet amet excepturi. Non ratione labore amet, veritatis libero magni quisquam cumque sed dignissimos ad.</div>
+
+  <div class="box2">
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto consequuntur saepe impedit repudiandae hic in mollitia explicabo voluptate esse suscipit assumenda facilis ipsa debitis tenetur aspernatur aliquid eos, maxime asperiores?
+  </div>
+
+
+
+    <div class="box4">
+         <div class="div4 one " ></div>
+         <div class="div4 two"></div>
+         <div class="div4 three"></div>
+         <div class="div4 four"></div>
+  </div>
+
+  <br><br><br><hr><hr><br>
+  <div class="box7">
+   box7
+  </div>
+
 </div>
+
+
 </body>
 </html>
